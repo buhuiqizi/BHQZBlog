@@ -55,7 +55,7 @@ ROOT_URLCONF = 'BHQZBlog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'template')],   #设置模板文件夹路径
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],   #设置模板文件夹路径
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
